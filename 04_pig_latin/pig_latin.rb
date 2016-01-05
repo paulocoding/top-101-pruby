@@ -13,7 +13,7 @@ def translate(os)
       r = s + 'ay'
     else
       i = 1
-      until vowel?(s[i])
+      until vowel?(s[i]) || i+1>s.length
         i += 1
       end
       if s[i-1]=="q" && s[i]=="u"
