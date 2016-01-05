@@ -19,8 +19,3 @@ class Book
     a.join(" ")
   end
 end
-
-b = Book.new("hello?")
-puts b.title
-b.title = "Im another"
-puts b.title
